@@ -103,7 +103,7 @@ for line in open('stopwords.txt', 'r'):
 
 print "Preprocessing Training Tweets ..."
 limit = 100000 #training limit
-crr = csv.reader(open("Training1106.csv","rb"))
+crr = csv.reader(open("Training_Set.csv","rb"))
 trainp = []#list with positive tweets
 trainn = []#list with negative tweets
 goodp = 0#keeped words in positive tweets
